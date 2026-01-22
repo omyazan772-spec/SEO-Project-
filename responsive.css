@@ -1,0 +1,40 @@
+@media (max-width:600px) {
+  
+  
+  .togglebutton{
+    display: block; 
+    font-size: 40px;
+   
+  }
+.dropdown{
+    display: block;
+}
+.logo{
+    display: none;
+}
+
+header img{
+  display: none;
+}
+.static-text{
+   width: 170px;
+}
+header{
+   
+    height: 300px;
+   display:grid;
+   grid-template-columns:1fr; 
+   grid-template-rows:auto;
+   align-items: center; 
+   gap: 20px; 
+   grid-column: 1;
+}
+.text-contenar{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+
+}
+
+
+}
