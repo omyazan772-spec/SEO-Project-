@@ -1,39 +1,189 @@
-@media (max-width:600px) {
-  
-  
-  .togglebutton{
-    display: block; 
-    font-size: 40px;
-   
-  }
-.dropdown{
-    display: block;
+@media (min-width:461px) and (max-width:840px) {
+
+nav { 
+    position: relative;
+    flex-direction: column;
+     height: auto;
+       padding: 10px;
+} 
+.links { 
+flex-direction: column;
+margin: 10px 0; 
+gap: 10px;
 }
-.logo{
-    display: none;
+nav button {
+ width: 100%;
+margin: 10px 0;
+}
+li a {
+font-size: medium;
+} 
+.casa #divider1,
+.team #divider1,
+.Testimonial #divider1,
+ #text44 #divider1 {
+ margin-left: auto;
+ margin-right: auto; 
+}
+header {
+ grid-template-columns: 1fr;
+height: auto;
+text-align: center; 
+padding: 20px;
+ }
+header img {
+width: 80%; 
+margin: 20px auto;
+ grid-column: 1;
+} 
+.text-contenar {
+     position: static ;
+     margin: 20px auto;
+}
+.static-text, #typing {
+     font-size: 28px; 
+     }
+
+
+.sectionpar h1 { 
+    font-size: 32px;  
+    margin-top: 40px;
+ }
+  .sectionpar #divider1 { 
+    margin-left: auto;
+     margin-right: auto;
+      display: block;
+} 
+.serviceicon { 
+grid-template-columns: repeat(1, 1fr);
+grid-template-rows: auto;
+margin-left: 0;
+justify-items: center; 
+} 
+.service1 { 
+     width: 250px; 
+    font-size: medium; 
+     padding-left: 0;
+}
+ .service1 p { 
+line-height: 28px; 
+    font-size: 14px;
+ }
+.aboutsearch {
+grid-template-columns: 1fr;
+ margin-left: 20px;
+text-align: center;
+} 
+.aboutsearch img {
+width: 70%;
+ margin: 20px auto;
+} 
+.aboutsearch h1 { 
+font-size: 40px;
+} 
+.textsearch {
+margin-left: 0;
+width: 90%;
+margin: 20px auto;
+} 
+.textsearch p { 
+line-height: 28px; 
+font-size: 14px;
+} 
+ .aboutsearch button {
+width: 120px;
+height: 40px;
+margin-top: 20px; 
+}
+ .casasStudies {
+grid-template-columns: repeat(1, 1fr);
+justify-items: center; 
+padding: 0;
+
+    }
+.boxs { 
+width: 300px;
+height: 240px;
+} 
+.cover h4 { 
+font-size: 18px;
+} 
+.cover h1 { 
+font-size: 14px;
+} 
+.casa h1 { 
+font-size: 36px;
+} 
+.PricingPlans .plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    height: 100%;
+}
+.div4 {
+display: block;
+}
+.divs{
+    gap: 300px;
 }
 
-header img{
-  display: none;
-}
-.static-text{
-   width: 170px;
-}
-header{
-   
-    height: 300px;
-   display:grid;
-   grid-template-columns:1fr; 
-   grid-template-rows:auto;
-   align-items: center; 
-   gap: 20px; 
-   grid-column: 1;
-}
-.text-contenar{
-    position: absolute;
-    top: 150px;
-    left: 100px;
+.members{
+    grid-template-columns: repeat(1, 1fr);
 
+}
+.client { 
+max-width: 90%;
+padding: 20px; 
+}
+.transtion {
+gap: 20px; 
+animation: movebox 6s infinite alternate;
+         }
+.inputs { 
+width: 90%; 
+} 
+.quoteform { 
+grid-template-columns: 1fr;
+margin: 20px; 
+} 
+.quoteform input,
+.quoteform textarea,
+.quoteform button {
+font-size: medium;
+} 
+.quoteform button { 
+font-size: large;
+}
+ .inputs h3{
+    font-size: medium;
+ }
+.foot1 {
+flex-direction: column;
+height: auto;
+padding: 20px; 
+align-items: flex-start;
+gap: 30px;
+}
+.foot1 button { 
+ width: 160px;
+margin-top: 15px;
+}
+footer {
+flex-direction: column;
+height: auto;
+padding: 15px;
+gap: 30px;
+}
+footer h3 { 
+font-size: large;
+}
+.top { 
+width: 50px;
+height: 50px;
+font-size: 20px;
+bottom: 15px;
+right: 20px;
 }
 
 
