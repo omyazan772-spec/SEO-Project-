@@ -12,7 +12,7 @@ margin: 10px 0;
 gap: 10px;
 }
 nav button {
- width: 100%;
+ width: 50%;
 margin: 10px 0;
 }
 li a {
@@ -96,15 +96,13 @@ height: 40px;
 margin-top: 20px; 
 }
  .casasStudies {
-grid-template-columns: repeat(1, 1fr);
-justify-items: center; 
-padding: 0;
+width: 50%;
+grid-template-columns: 1fr;
+gap: 30px;
+margin-top:50px ;
+justify-content: center;
+}
 
-    }
-.boxs { 
-width: 300px;
-height: 240px;
-} 
 .cover h4 { 
 font-size: 18px;
 } 
