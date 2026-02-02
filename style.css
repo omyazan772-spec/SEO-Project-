@@ -249,7 +249,7 @@ margin-top: 60px;
 /*casas studies-start*/
 
 .casasStudies{
-width: 1110px;
+width: 1210px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 height: auto;
