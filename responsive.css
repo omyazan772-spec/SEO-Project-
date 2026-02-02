@@ -18,13 +18,6 @@ margin: 10px 0;
 li a {
 font-size: medium;
 } 
-.casa #divider1,
-.team #divider1,
-.Testimonial #divider1,
- #text44 #divider1 {
- margin-left: auto;
- margin-right: auto; 
-}
 header {
  grid-template-columns: 1fr;
 height: auto;
